@@ -1,0 +1,14 @@
+import React from 'react';
+
+const ColorButton = ({ color, onClick }) => {
+  return (
+    <button
+      onClick={onClick}
+      style={{ backgroundColor: color }}
+    >
+      {color}
+    </button>
+  );
+};
+
+export default ColorButton;
